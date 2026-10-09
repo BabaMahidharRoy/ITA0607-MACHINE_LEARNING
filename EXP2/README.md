@@ -42,9 +42,12 @@ dataset = [
 ]
 ```
 ##ouput
+```
 Specific Boundary (S): ['Sunny', 'Warm', '?', 'Strong', '?', '?']
 General Boundary (G): [['Sunny', '?', '?', '?', '?', '?'], ['?', 'Warm', '?', '?', '?', '?']]
 
 specific_boundary, general_boundary = candidate_elimination(dataset)
 print("Specific Boundary (S):", specific_boundary)
 print("General Boundary (G):", general_boundary)
+```
+
