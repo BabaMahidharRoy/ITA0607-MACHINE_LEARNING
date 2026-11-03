@@ -20,8 +20,10 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
 ```
 ## OUTPUT
+```
 Accuracy: 0.9777777777777777
 Confusion Matrix:
  [[19  0  0]
  [ 0 12  1]
  [ 0  0 13]]
+```
